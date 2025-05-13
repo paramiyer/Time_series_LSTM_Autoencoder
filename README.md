@@ -29,6 +29,6 @@ model.add(RepeatVector(sequence_length))
 model.add(LSTM(128, activation='relu', return_sequences=True))
 model.add(TimeDistributed(Dense(1)))
 
-## Final Model FIr 
-<img width="582" alt="image" src="https://github.com/user-attachments/assets/3fe94a1c-7a50-44cf-9127-51cc4417cb9d" />
+🖼️ Final Model Output Visualization
+<img width="582" alt="LSTM Autoencoder Output" src="https://github.com/user-attachments/assets/3fe94a1c-7a50-44cf-9127-51cc4417cb9d" /> ```
 
