@@ -29,5 +29,4 @@ model.add(RepeatVector(sequence_length))
 model.add(LSTM(128, activation='relu', return_sequences=True))
 model.add(TimeDistributed(Dense(1)))
 
-<img width="582" alt="image" src="https://github.com/user-attachments/assets/affd8683-5876-4a39-abcc-9f9eee4ac232" />
 
