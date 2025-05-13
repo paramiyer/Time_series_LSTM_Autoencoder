@@ -35,3 +35,13 @@ model.add(TimeDistributed(Dense(1)))
 
 <img width="582" alt="LSTM Autoencoder Output" src="https://github.com/user-attachments/assets/3fe94a1c-7a50-44cf-9127-51cc4417cb9d" />
 
+### Results from using LSTM-AE model for Temperature on missing value imputations on GE Stock (compared with mean & median imputation without fine tuning)
+
+<img width="363" alt="image" src="https://github.com/user-attachments/assets/46021223-e72e-48d5-b600-f0395cc61708" />
+
+
+### Other uses for this approach
+- Generate synthetic sequences from the underlying distribution
+- Outlier & Anomaly detection
+- Missing Value impuatation
+
