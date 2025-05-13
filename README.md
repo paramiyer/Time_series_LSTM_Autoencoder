@@ -20,6 +20,20 @@ This repository explores the use of LSTM Autoencoders for robust time series imp
 - Adapts architecture from the temperature model
 - Fine tuning to improve performance <TBD>
 
+### 📂 Datasets Used
+
+#### 🌡️ `DubaiTemp.csv`
+- Hourly weather data for Dubai starting from January 2010.
+- Key feature: `temperature_2m` – temperature measured at 2 meters above ground.
+- Used as a **training dataset** to build and validate the LSTM Autoencoder model.
+- Perturbations (e.g., replacing random values with zero) are introduced to simulate missing or anomalous readings.
+
+#### 📉 `GE.csv`
+- Daily stock price data for General Electric (GE) from May 2023.
+- Key feature: `Close` – closing price for the day.
+- Used to **test the generalizability** of the trained LSTM Autoencoder on financial time series.
+- Demonstrates how an autoencoder trained on environmental data can detect and impute anomalies in a different domain.
+
 ## 🧠 LSTM Autoencoder Architecture
 
 ```python
